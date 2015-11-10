@@ -1,9 +1,8 @@
-require('../css/main.css');
+import '../css/main.css';
 
-var React 		= require('react');
-var ReactDOM 	= require('react-dom');
-var CommentBox 	= require('./components/CommentBox');
-//var greet 		= require('./greeting');
+import React from "react";
+import ReactDOM from "react-dom";
+import CommentBox from "./components/CommentBox"
 
 // tutorial1.js
 ReactDOM.render(

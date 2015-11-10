@@ -1,13 +1,11 @@
-var React = require('react');
+import React from "react";
 
-var CommentBox = React.createClass({
+export default React.createClass({
   render: function() {
     return (
       <div className="commentBox">
-        Hello world. I am a React app.
+        Hello world. I am a React application.
       </div>
     );
   }
 });
-
-module.exports = CommentBox;
