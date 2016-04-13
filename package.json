@@ -1,14 +1,16 @@
 {
-  "name": "webpack-react-recipe",
+  "name": "canihazchickens",
   "version": "1.0.0",
-  "description": "",
+  "description": "Informs citizens on how many chickens they can have to encourage sustainable living.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
+  "repository": "https://github.com/buddyp450/canihazchickens.git",
   "dependencies": {
+    "jsonp": "^0.2.0",
     "react": "^0.14.2",
     "react-dom": "^0.14.2"
   },
@@ -23,7 +25,7 @@
     "redux-devtools": "^2.1.5",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.3",
-    "webpack-dev-server": "^1.12.1"
+    "webpack-dev-server": "^1.14.1"
   },
   "babel": {
     "presets": [

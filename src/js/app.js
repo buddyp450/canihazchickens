@@ -1,11 +1,13 @@
-import '../css/main.css';
+import '../css/normalize.css';
+import '../css/responsive.css';
+import '../css/style.css';
 
 import React from "react";
 import ReactDOM from "react-dom";
-import CommentBox from "./components/CommentBox"
+import GoogleMap from "./components/GoogleMap"
 
 // tutorial1.js
 ReactDOM.render(
-  <CommentBox />,
+  <GoogleMap />,
   document.getElementById('content')
 );
